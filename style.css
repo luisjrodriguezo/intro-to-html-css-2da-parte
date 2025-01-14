@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10a29b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.login header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eec614;
+}
+
+.login header .logo {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.login header .text {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.login header .flecha {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 18px solid #eec614;
+    bottom: -16px;
+}
+
+.login main {
+    width: 100%;
+    height: auto;
+    padding: 35px;
+    font-size: .8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.login main .group {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+}
+
+.login main .group .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #eec614;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.login main .group input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background-color: #eeeeee;
+}
+
+.login main .remember {
+    width: 100%;
+    margin: 10px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    align-items: center;
+}
+
+.login main .remember a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.login main .btn-sign-in {
+    width: 100%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    background-color: #eec614;
+    color: white;
+    border: 0;
+}
+
+.login main .divider {
+    width: 100%;
+    height: 0;
+    border-top: 1px dashed #cccccc;
+    margin: 20px 0;
+}
+
+.login main p {
+    color: #bbbbbb;
+    text-align: center;
+}
+
+.login main p a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.login main .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login main .social-media .facebook, 
+.login main .social-media .twitter, 
+.login main .social-media .google {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    margin: 0 10px;
+}
+
+.login main .social-media .facebook {
+    background-color: #1212e0;
+} 
+.login main .social-media .twitter {
+    background-color:#35cdfc;
+}
+.login main .social-media .google {
+    background-color: #a91616;
+}
+
+.register {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.register header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8a2be2;
+}
+
+.register header .logo {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.register header .text {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.register header .flecha {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 18px solid #8a2be2;
+    bottom: -16px;
+}
+
+.register main {
+    width: 100%;
+    height: auto;
+    padding: 35px;
+    font-size: .8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.register main .group {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+}
+
+.register main .group .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #8a2be2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.register main .group input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background-color: #eeeeee;
+}
+
+.register main .remember {
+    width: 100%;
+    margin: 10px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    align-items: center;
+}
+
+.register main .remember a {
+    text-decoration: none;
+    color: #8a2be2;
+}
+
+.register main .btn-sign-in {
+    width: 100%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    background-color: #8a2be2;
+    color: white;
+    border: 0;
+}
+
+.register main .divider {
+    width: 100%;
+    height: 0;
+    border-top: 1px dashed #cccccc;
+    margin: 20px 0;
+}
+
+.register main p {
+    color: #bbbbbb;
+    text-align: center;
+}
+
+.register main p a {
+    text-decoration: none;
+    color: #8a2be2;
+}
+
+.register main .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.register main .social-media .facebook, 
+.register main .social-media .twitter, 
+.register main .social-media .google {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    margin: 0 10px;
+}
+
+.register main .social-media .facebook {
+    background-color: #1212e0;
+} 
+.register main .social-media .twitter {
+    background-color:#35cdfc;
+}
+.register main .social-media .google {
+    background-color: #a91616;
+}
